@@ -1,5 +1,7 @@
 {{- $params := .Scratch.Get "params" -}}
 
+    <script defer data-domain="pierrezemb.fr" src="https://plausible.io/js/plausible.js"></script>
+
 {{- with .Site.Params.verification.google -}}
     <meta name="google-site-verification" content="{{ . }}" />
 {{- end -}}
